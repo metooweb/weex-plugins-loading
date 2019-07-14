@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+#inhibit_all_warnings!
+
+def common
+	pod 'WeexSDK'
+	pod 'WeexPluginLoader'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  
+end
+
+target 'Loading' do
+    common
+end
+
+
